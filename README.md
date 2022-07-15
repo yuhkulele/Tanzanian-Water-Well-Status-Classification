@@ -66,6 +66,9 @@ Here are some areas for further investigation to produce an improved model:
 │   ├── water_well_train_data.csv
 │   └── water_well_train_labels.png
 ├── notbooks_scratch
+│   ├── Anton modeling.ipynb
+│   ├── Anton-modeling2.ipynb
+│   ├── Anton.ipynb
 │   ├── Yuhkai_EDA.ipynb
 │   └── Yuhkai_modeling.ipynb
 ├── visualizations
