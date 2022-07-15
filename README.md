@@ -67,8 +67,7 @@ Here are some areas for further investigation to produce an improved model:
 │   └── water_well_train_labels.png
 ├── notbooks_scratch
 │   ├── Yuhkai_EDA.ipynb
-│   ├── Yuhkai_modeling.ipynb
-│   ├── 
+│   └── Yuhkai_modeling.ipynb
 ├── visualizations
 │   ├── bagging_importances.png
 │   ├── bagging_importances_cleaned.png
@@ -78,6 +77,9 @@ Here are some areas for further investigation to produce an improved model:
 │   └── test_accuracy_scores.png
 ├── .gitignore
 ├── README.md
-├── notebook.pdf
-└── presentation.pdf 
+├── main_notebook_cleaning.ipynb
+├── main_notebook_modeling.ipynb
+├── notebook_cleaning.pdf
+├── notebook_modeling.pdf
+└── presentation_tanzania_water_pumps.pdf 
 ```
