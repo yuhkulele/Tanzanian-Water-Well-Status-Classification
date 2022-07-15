@@ -56,27 +56,27 @@ Here are some areas for further investigation to produce an improved model:
 
 - Improve sensitivity to non-functional pumps: People around non-functional pumps lack access to clean water. Correctly identifying cases of non-functional pumps is critical to improving water access for Tanzanians.
 
-- Reduce model complexity: We highlighted age as a feature where information is lacking. The model currently takes in 17 features. Given the challenge of collecting information to feed into the model, a model that can make predictions when less infomation is available could be more useful for organizations to utilize. The challenge is to balance model performance with reduced complexity/information availability.
+- Reduce model complexity: The model currently takes in 17 features. Given the challenge of collecting information to feed into the model, a model that can make predictions when less infomation is available could be a more useful prediction tool. The challenge is to balance model performance with reduced complexity/information availability.
 
 ## Repository Structure
 ```
-├── Working_Notebooks
-│   ├── 
-│   ├──
-├── visualizations
-│   ├── 
-│   ├── 
-│   ├── 
-│   ├── 
-│   ├── 
 ├── data
+│   ├── water_well_test_values.csv
+│   ├── water_well_train_clean.csv
+│   ├── water_well_train_data.csv
+│   └── water_well_train_labels.png
+├── notbooks_scratch
+│   ├── Yuhkai_EDA.ipynb
+│   ├── Yuhkai_modeling.ipynb
 │   ├── 
-│   ├── 
-│   └── 
-├── .canvas
+├── visualizations
+│   ├── bagging_importances.png
+│   ├── bagging_importances_cleaned.png
+│   ├── confusion_matrices.png
+│   ├── model_identification_results.png
+│   ├── rfc_importances.png
+│   └── test_accuracy_scores.png
 ├── .gitignore
-├── CONTRIBUTING.md
-├── LICENSE.md
 ├── README.md
 ├── notebook.pdf
 └── presentation.pdf 
